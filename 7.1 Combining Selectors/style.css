@@ -1,0 +1,25 @@
+/* Write your code here: */
+
+/* selects all elements that are one of these selectors or both */
+h1, h2 {
+    color: blueviolet;
+}
+/* selects element which is direct child of first selector with > */
+div > p {
+    color: firebrick;
+}
+/* selects all descendants of .box*/
+.box li {
+    color: blue;
+}
+
+/* super specific, applies to element where all selectors are true*/
+
+li.done {
+    color: seagreen;
+}
+
+/* multiple combiners*/
+ul p.done {
+    font-size: 0.5rem;
+}
